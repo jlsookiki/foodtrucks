@@ -9,3 +9,4 @@ HTTPretty
 Flask-Testing
 Flask-Jasmine
 jasmine
+hamlish-jinja
