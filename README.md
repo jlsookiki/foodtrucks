@@ -1,6 +1,6 @@
 # Project Descripton
 
-This project gives a solutions to the SF Food trucks challenge.  It is a full stack solution to displaying the data received from sfdata about mobile food trucks in an elegant manner.
+This project gives a solutions to the SF Food trucks challenge.  It is a full stack solution to displaying the data received from sfdata about mobile food trucks in an elegant manner. I have hosted it using Google Developer Cloud and can be found [here](http://23.251.159.86/)
 
 # Technical Stack
 ## Backend Stack
