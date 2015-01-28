@@ -1,0 +1,17 @@
+Required Stuff:
+flask
+flask-assets
+flask-sqlalchemy
+geoalchemy2
+shapely
+psycopg2
+sqlalchemy-migrate
+HTTPretty
+Flask-Testing
+Flask-Jasmine
+jasmine
+
+backbone
+jquery
+require
+underscore

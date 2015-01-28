@@ -1,0 +1,35 @@
+{% haml %}
+%html
+  %head
+    -assets "js_all"
+      %script src="{{ ASSET_URL }}" type="text/javascript"
+    -assets "css_all"
+      %link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}"
+  %body
+    %script id="markerViewTemplate" type="text/template"
+      %div#content class="infoWindow"
+        %h2 -> <%=owner%>
+        %span
+          %b -> Food types:
+          <%=foodItems%>
+        %br
+        %span
+          %a href= <%=scheduleURL %>
+            Schedule
+
+    %script id="listItemView" type="text/template"
+      %div
+        %span -> <%=owner%>
+        %input id="<%=owner%>" class="foodTruckBox" type="checkbox" checked
+
+    %div#map_canvas
+      Hello World
+
+    %div#foodTruckListView class="overlay"
+      %div
+        %h3
+          Food Trucks
+          %input id="allFoodTrucks" type="checkbox" checked
+      %ul#ownerListing
+
+{% endhaml %}
